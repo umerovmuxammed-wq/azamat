@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font-family: "Roboto", sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fefbf1;
+    margin-bottom: 120px;
+    padding: 20px 0 20px 0;
+}
+
+nav ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #703412;
+}
+
+header {
+    margin-left: 72px;
+    background: #fefbf1;
+}
+
+header p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 400%;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #703412;
+    margin-bottom: 21px;
+}
+
+header h1 {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 110%;
+    color: #703412;
+    margin-bottom: 120px;
+}
+
+.s1 p{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 32px;
+line-height: 130%;
+color: #703412;
+margin-left: 72px;
+margin-bottom: 194px;
+}
+
+
+
+.s2__wrapper{
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+}
+.s2 h3{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 24px;
+line-height: 120%;
+color: #703412;
+margin-bottom: 11px;
+margin-left: 28px;
+}
+.s2 h6{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 12px;
+line-height: 150%;
+letter-spacing: 0.13em;
+text-transform: uppercase;
+color: rgba(112, 52, 18, 0.72); 
+margin-bottom: 96px;
+margin-left: 28px;
+}
+
+
+
+
+
+
+
+.s3{
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+}
+.s3 h3{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 24px;
+line-height: 120%;
+color: #703412;
+margin-bottom: 11px;
+margin-left: 28px;
+}
+.s3 h6{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 12px;
+line-height: 150%;
+letter-spacing: 0.13em;
+text-transform: uppercase;
+color: rgba(112, 52, 18, 0.72); 
+margin-bottom: 96px;
+margin-left: 28px;
+}
+.s4{
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+}
+.s4 h3{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 24px;
+line-height: 120%;
+color: #703412;
+margin-bottom: 11px;
+margin-left: 28px;
+}
+.s4 h6{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 12px;
+line-height: 150%;
+letter-spacing: 0.13em;
+text-transform: uppercase;
+color: rgba(112, 52, 18, 0.72); 
+margin-bottom: 122px;
+margin-left: 28px;
+}
+
+footer{
+    width: 100%;
+height: 644px;
+background: #084935;
+}
+footer h3{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+    color: #fff;
+    padding-top: 120px;
+    margin-bottom: 24px;
+    margin-left: 72px;
+}
+
+footer h1{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 30px;
+line-height: 128%;
+color: #fff;
+margin-left: 72px;
+margin-bottom: 110px;
+}
+footer h1 span{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 29px;
+line-height: 132%;
+color: rgba(255, 255, 255, 0.72);
+}
+
+.footer__wrapper{
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    color: white;
+    list-style: none;
+}
+    .ul{
+    margin-bottom: 81px;
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: rgba(255, 255, 255, 0.72);
+}
+    .ul2{
+    margin-bottom: 81px;
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: rgba(255, 255, 255, 0.72);
+}
+    .ul3{
+    margin-bottom: 81px;
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: rgba(255, 255, 255, 0.72);
+}
+    .ul4{
+    margin-bottom: 81px;
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: rgba(255, 255, 255, 0.72);
+}
+hr{
+    width: 100%;
+height: 1px;
+background: rgba(255, 255, 255, 0.16);
+margin-bottom: 20px;
+}
+footer p{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: #fff;
+margin-bottom: 26px;
+margin-left: 72px;
+}
+
+
+
+
